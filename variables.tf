@@ -1,4 +1,4 @@
-variable "image" {
+variable "talos_image" {
   description = "Talos image configuration"
   type = object({
     factory_url = optional(string, "https://factory.talos.dev")
